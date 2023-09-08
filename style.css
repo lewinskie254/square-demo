@@ -74,9 +74,9 @@ nav {
     margin-top: 2rem;
 }
 
-.empty {
+/* .empty {
     padding: 130px;
-}
+} */
 
 .img-section {
     background-image: url(images/bar-blue.jpg);
@@ -255,10 +255,9 @@ nav {
     border-radius: 25px; 
     box-sizing: border-box;
     box-shadow: 20px 20px 40px 0px rgb(0, 0, 0);
-    z-index: 100; 
-    position: fixed;
-    margin: auto;
-    left: 0;
+    /* z-index: 100;  */
+    /* position: fixed; */
+    margin-left: 65px;
 }
 
 .price-food {
@@ -335,8 +334,8 @@ a {
 .changing-image {
     margin-left: 42.85%; 
 }
-.empty {
-    padding: 170px;
+/* .empty {
+    padding: 170px; */
 }
 
 }
