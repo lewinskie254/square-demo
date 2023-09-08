@@ -1,0 +1,333 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+    background-color: #346784;
+    justify-self: center;
+}
+
+.divider {
+    margin-left: calc(50vw - 252px);
+    align-items: center;
+    justify-content: center;
+    color: antiquewhite;
+    background-color: #346784;
+}
+
+.container{
+    margin: auto;
+    position: relative;
+    
+}
+
+header {
+    display: inline-block;
+    
+}
+
+nav {
+    display: inline-block;
+    margin-inline-start: 35px;
+    max-height: 65px;
+}
+
+.navbar{
+    display: inline-block;
+    max-height: 65px;
+    margin-bottom: 1.5rem;
+}
+
+.navbar li {
+    display: inline-block;
+    list-style: none;
+}
+
+.nav-buttons {
+    background: #070141; 
+    color: rgba(202,218,235,255);
+    padding: 10px 10px;
+    width: 65px;
+    height: 100%;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 20px 0px rgb(0, 0, 0);
+    font-size: 1rem;
+    margin-left: 5px;
+    border-radius: 16px;
+}
+
+.logo-container {
+    width: 70px;
+    height: 100%;
+    left: 0;
+    align-items: center;
+    
+}
+
+.logo-container img {
+    width: 100%;
+    border-radius: 100%;
+    margin-bottom: -1rem;
+}
+
+.hero {
+    margin-inline-start: 35px;
+    margin-top: 2rem;
+}
+
+.img-section {
+    background-image: url(images/bar-blue.jpg);
+    background-size: cover;
+    max-width: 400px;
+    height: 250px;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 10px 10px 20px 0px rgb(0, 0, 0);
+    margin-inline-start: 40px;
+    margin-inline-end: 10px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    align-items: center;
+}
+
+.img-section h2 {
+    padding-inline: 50px;
+    padding-block: 70px;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: ;
+}
+
+.landing-menu {
+    max-width: 500px;
+    padding-inline-start: 70px;
+     padding-inline-end: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.description p {
+    text-transform: capitalize
+}
+
+.sect-divs {
+    box-shadow: 10px 10px 20px 0px rgb(0, 0, 0);
+    margin-top: 10px;
+    color: black;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.cocktails {
+    background-image: url(images/348s.jpeg);
+    background-size: cover;
+}
+
+
+.food {
+    background-image: url(images/mbuzi-choma.jpeg);
+    background-size: cover;
+}
+
+.bottle {
+    background-image: url(images/bottle.2.jpeg);
+    background-size: cover;
+}
+.beer {
+    background-image: url(images/beers2.webp);
+    background-size: cover;
+}
+
+.liquor {
+    background-image: url(images/liqour.jpeg);
+    background-size: cover;
+}
+
+.non-alcoholic {
+    background-image: url(images/mocktails.webp);
+    background-size: cover;
+}
+
+.sect-divs {
+    color: #fff;
+    min-height: 200px;
+}
+
+.product-class-title {
+    background-color: #070141; 
+    color: rgba(202,218,235,255);
+    box-shadow: 10px 10px 20px 0px rgb(0, 0, 0);
+    margin-top: -5px;
+    padding: 0.15rem;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+.non {
+    font-size: 1.245rem;
+}
+
+.product-short-list ul li {
+    list-style: none;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    font-weight: 300;
+    display: none;
+}
+
+.product-short-list h3 {
+    text-align: center;
+    font-size: 1.25rem;
+    color: #dbf0f5;
+}
+
+.text {
+    margin-left: -25px;
+}
+
+.text li {
+    color: #ffffff;
+}
+
+
+.bottom {
+    background-color: #276283;
+    color: rgba(202,218,235,255);
+    margin-top: -5px;
+    padding: 0.15rem;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 0.75rem;
+}
+
+.empty-div{ 
+    width: 400px;
+    justify-content: center;
+    padding-inline: 120px;
+    margin-top: 20px;
+}
+
+
+
+/* product pages */
+.product-menu {
+    background-color: #070141;
+    max-width: 500px;
+    margin-inline-start: 70px;
+    margin-inline-end: 10px;
+    border-radius: 25px;
+    box-shadow: 10px 10px 20px 0px rgb(0, 0, 0);
+}
+
+.item {
+    border-bottom: 2px solid #276283;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.3fr;
+    gap: 10px;
+}
+
+.item:last-child {
+    border: none;
+}
+
+.item-img {
+    padding: 10px;
+    max-width: 120px;
+    max-height: 80px;
+    object-fit: contain;
+    overflow: hidden;
+    margin-block: 10px;
+}
+
+.item-img img{
+    width: 100%;
+    height: 100%;
+    border-radius:15px;
+}
+
+.changing-image {
+    max-width: 400px;
+    height: 250px;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 20px 20px 40px 0px rgb(0, 0, 0);
+    margin-inline-start: 40px;
+    margin-inline-end: 10px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    align-items: center;
+    z-index: 10;
+}
+
+.price-food {
+    padding: 25px;
+}
+
+.item-label-food {
+    padding-inline-start: 25px;
+}
+
+
+.changing-image img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.price {
+    align-items: center;
+    text-align: center;
+    margin-top: 75%;
+}
+
+.item-label {
+    color: #ff5b02;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.section-end {
+    align-items: center;
+    text-align: center;
+    margin-left: 17%;
+}
+
+
+/* media queries */
+
+@media (min-width: 500px) {
+    .landing-menu {
+    max-width: 500px;
+    padding-inline: 35px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.img-section {
+    background-image: url(images/bar-blue.jpg);
+    background-size: cover;
+    max-width: 500px;
+    height: 250px;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 10px 10px 20px 0px rgb(0, 0, 0);
+    margin-inline-start: 0px;
+    margin-inline-end: 10px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    align-items: center;
+
+}
+
+.section-end {
+    align-items: center;
+    text-align: center;
+    margin-right: 60%;
+}
+.changing-image {
+    min-width: 500px;
+}
+
+}
