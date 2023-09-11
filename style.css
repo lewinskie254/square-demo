@@ -96,6 +96,8 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
+    border: none;
+    outline: none;
 }
 
 .description p {
@@ -343,7 +345,8 @@ form i {
     padding-inline: 35px;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 10px;
+    gap: 10px; outline: none;
+    border: none;
 }
 .img-section {
     background-image: url(images/bar-blue.jpg);
